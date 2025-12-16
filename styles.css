@@ -320,5 +320,16 @@ button.selected {
     font-size: x-large;
 }  
 
-
+.totebag{
+   background-color: #F9C74F; 
+ border-radius: 20px; 
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 10px;
+    margin-right:10px; 
+    width: 80%;
+    height: 30%;
+    text-align: center;
+   
+}
 }
