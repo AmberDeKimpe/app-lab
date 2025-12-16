@@ -402,4 +402,14 @@ background-color: #F9C74F;
     text-decoration: none;
     font-size: x-large;
 }  
+
+.melding h2{
+    color: #f47b2a;
+}
+
+.melding{
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 80%;
+}
 }
