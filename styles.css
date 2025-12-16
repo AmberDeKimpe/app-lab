@@ -332,4 +332,46 @@ button.selected {
     text-align: center;
    
 }
+.winkelmandjecoolbox{
+background-color: #F9C74F; 
+ border-radius: 20px; 
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-right:10px; 
+    width: 40%;
+    text-align: center;
+}
+
+.winkelmandjecoolbox img{
+ width: 70%;
+}
+
+.winkelcoolbox{
+    margin-left: 60%;
+    margin-top: -33%;
+    color: #351303;
+}
+.winkelmandjepet{
+    background-color: #F9C74F; 
+ border-radius: 20px; 
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-right:10px; 
+    width: 40%;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.winkelmandjepet img{
+
+    width: 60%;
+}
+
+.winkelpet{
+    margin-left: 60%;
+    margin-top: -33%;
+    color: #351303;
+}
 }
