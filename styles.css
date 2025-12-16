@@ -25,6 +25,7 @@ body{
     background-image: url(bgi.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 h1{
@@ -82,13 +83,14 @@ nav{
 
 
 .join{
-     margin-top: -100px;
+    
     padding: 30px;
     background-color:#577590;
     text-decoration: none;
     border-radius:5px;
     text-align: center;
     margin-top: 10%;
+    margin-bottom: 0;
 }
 .join a{
     color:#FAF3DD;
@@ -141,15 +143,16 @@ nav{
 
 
 form {
-    position:fixed;
+    text-align: center;
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 20%;
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 1rem;    
   max-width:70% ;
   margin-top: 10%;
-  margin-bottom:60% ;   
-  margin-left:10%;
-  margin-right:30%;
+  margin-bottom:10% ;   
+  margin-left:20%;
+  margin-right:20%;
   font-family: "omnes-pro", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -157,7 +160,7 @@ form {
 }
 
 .Joinnowbtn{
-    position: fixed;
+    
     background-color: #577590;
     text-decoration: none;
     color: #FAF3DD;
@@ -167,14 +170,12 @@ form {
     width: 75px;
     margin: auto;
     text-align: center;
-    margin-top: 400px;
+    margin-top: 10%;
     margin-left: 40%;
+    margin-bottom: 30%;
 }
 
-footer {
-    display: block;
-    bottom: 0;
-}
+
 
 
 
