@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/jjt8tot.css");
-@media(max-width: 600px),(max-height: 800px){
+@media (max-width: 600px),(max-height: 800px){
    
     
 
@@ -27,12 +27,14 @@ body{
 .achtergrond{
     width: 100vw;
     
-    text-align: center;
         
 }
 
 .achtergrondinfo{
     width: 100vw;
+    z-index: 1;
+    display: block;
+    position: relative;
     
 }
 
@@ -76,8 +78,19 @@ nav{
 }  
 
 .infotext{
-    padding: 20px
+    padding: 20px;
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;         
+    color: #351303;
+    text-align: left;
+    font-size:x-large;
+    width: 400px;
+
     
     
+   
 }
 }
