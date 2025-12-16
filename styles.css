@@ -22,7 +22,7 @@ a{
 body{
     background-color:#FAF3DD;
     margin:0;
-    background-image: url(bgi.svg);
+    background-image: url(images/bgi.svg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -30,6 +30,7 @@ body{
 
 h1{
     color:#ff7a00 ;
+    text-align: center;
 }
 
 
@@ -175,6 +176,68 @@ form {
     margin-bottom: 30%;
 }
 
+.search-form {
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: 20px auto;
+    max-width: 500px;         
+}
+
+.search-form input[type="text"] {
+    margin-left:5%;
+    flex: 1;                 
+    padding: 10px 15px;
+    border: 2px solid #351303;
+    border-radius: 50px 0 0 50px; 
+    font-family: "omnes-pro", sans-serif;
+    font-size: 1rem;
+}
+
+.search-form button {
+    margin-right:5%;
+    padding: 10px 20px;
+    border: 2px solid #351303;
+    border-radius: 0 50px 50px 0; 
+    background-color: #577590;
+    color: #FAF3DD;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-form button:hover {
+    background-color: #ff7a00;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.shop1 ,.shop2, .shop3 {
+    display: flex;
+    gap: 20px;
+}
+
+.Shopkoelbox, .Shopshaker, .Totebag1, .pet, .Totebag2, .handdoek{
+    background-color: #ff7a00;
+    text-decoration: none;
+    gap: 5px;
+    color: #351303;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-left:10px;
+
+}
+
+.Shopkoelbox img, .Shopshaker img, .Totebag1 img, .pet img, .Totebag2 img, .handdoek img{
+   width: 100%;
+}
 
 
 
