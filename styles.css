@@ -374,4 +374,32 @@ background-color: #F9C74F;
     margin-top: -33%;
     color: #351303;
 }
+
+.totaal{
+    margin-left: 10%;
+    margin-top: 30%;
+    color: #351303;
+}
+
+.geld{
+ margin-left: 70%;
+ margin-top: -40%;
+ color: #351303;
+}
+
+.Checkout{
+  
+    padding: 10px;
+    background-color:#577590;
+    text-decoration: none;
+    border-radius:5px;
+    text-align: center;
+    margin-top: 28%;
+    
+}
+.Checkout a{
+    color:#FAF3DD;
+    text-decoration: none;
+    font-size: x-large;
+}  
 }
