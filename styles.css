@@ -223,13 +223,13 @@ a{
 }
 
 .Shopkoelbox, .Shopshaker, .Totebag1, .pet, .Totebag2, .handdoek{
-    background-color: #ff7a00;
+    background-color: #F9C74F;
     text-decoration: none;
     gap: 5px;
     color: #351303;
     width: 50%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     margin-left:10px;
 
@@ -239,8 +239,21 @@ a{
    width: 100%;
 }
 
+.petprijs, .handdoekprijs{
+    margin-top: 100px;
+}
 
+.coolbox{
+ background-color: #F9C74F; 
+ border-radius: 20px; 
+ border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left:10px; 
+    width: 100%;
+    text-align: center;
 
+}
 
 
 }
