@@ -22,7 +22,16 @@ a{
 body{
     background-color:#FAF3DD;
     margin:0;
+    background-image: url(bgi.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+h1{
+    color:#ff7a00 ;
+}
+
+
 
 .achtergrond{
     width: 100vw;
@@ -55,14 +64,22 @@ body{
 
 }
 
+
+
 nav{
-    margin-top: -5px;
+   
+    position: fixed;       
+    bottom: 0;             
+    left: 0;               
+    width: 100%;           
     display: flex;
     justify-content: space-around;
-    background-color:#351303;
+    background-color: #351303;
     padding: 20px;
-    
-}
+    z-index: 999;          
+    margin-top: 0;         
+   }
+
 
 .join{
      margin-top: -100px;
@@ -116,5 +133,50 @@ nav{
     margin-left: 80%;
     
 }
+
+.joinnow h1{
+    text-align: center;
+}
+
+
+
+form {
+    position:fixed;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20%;
+  max-width:70% ;
+  margin-top: 10%;
+  margin-bottom:60% ;   
+  margin-left:10%;
+  margin-right:30%;
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #351303;
+}
+
+.Joinnowbtn{
+    position: fixed;
+    background-color: #577590;
+    text-decoration: none;
+    color: #FAF3DD;
+    padding:5px 10px 5px 10px;
+    border-radius: 50px;
+    display: block;
+    width: 75px;
+    margin: auto;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 40%;
+}
+
+footer {
+    display: block;
+    bottom: 0;
+}
+
+
+
 
 }
